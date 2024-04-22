@@ -1,0 +1,23 @@
+{
+  "name": "mine : btc",
+  "description": "followers ig.",
+  "image": "heroku/python",
+  "repository": "https://github.com/petugas/no",
+  "keywords": ["python", "btc" ],
+  "addons": [ "heroku-postgresql" ],
+  "env": {
+    "IG_USERNAME": {
+      "description": "Your Instagram Username."
+    }
+  },
+  "buildpacks": [
+        {
+            "url": "heroku/python"
+        }
+    ],
+    "formation": {
+        "worker": {
+            "quantity": 1,
+            "size": "free"
+        }
+    }
